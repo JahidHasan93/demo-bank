@@ -1,6 +1,9 @@
 body{
     padding:100px;
 }
+h5,h2,h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .submit-btn{
     border-radius:5px;
 }
@@ -9,4 +12,42 @@ body{
     margin-top:50px;
     border-radius:10px;
     box-shadow:5px 5px 7px grey;
+}
+#main-area{
+    display:none;
+}
+.deposite{
+    background-color:blue;
+}
+.withdraw{
+    background-color:red;
+}
+.balance{
+    background-color:green;
+}
+.status{
+    color:white;
+    border-radius:10px;
+    padding:20px;
+    margin:0 20px;
+}
+.t-area{
+    display:none;
+}
+.new{
+    margin-top:100px;
+}
+.d-area{
+    padding: 13px;
+    border-radius:10px;
+    box-shadow:5px 5px 7px grey;
+}
+.w-area{
+    padding: 13px;
+    border-radius:10px;
+    box-shadow:5px 5px 7px grey;
+
+}
+.margin{
+    margin:0 50px;
 }

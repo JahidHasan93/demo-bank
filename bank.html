@@ -9,15 +9,60 @@
     <link rel="stylesheet" href="bank.css">
 </head>
 <body>
-    <div class="login-area">
+    <div id="login-area">
         <h1 class="text-center"> Welcome to <span style="color:silver;">Silver</span> bank.</h1>
        <div class="form-area">
         <h4>Login</h4>
         <input type="text" class="form-control" placeholder="E-mail"> <br>
         <input type="password" class="form-control" placeholder="Password"> <br>
-        <button class="btn-success submit-btn">Enter</button>
+        <button class="btn-success submit-btn" id="enter-btn">Enter</button>
        </div>
     </div>
+<div id="main-area">
+   <div class="row">
+    <div class="col-md-4">
+        <div class="deposite status">
+        <h5>Deposite</h5>
+        <h2>$00</h2>
+        </div>
+    </div>
+    <div class="col-md-4">
+       <div class="withdraw status">
+        <h5>Withdraw</h5>
+        <h2>$00</h2>
+       </div>
+    </div>
+    <div class="col-md-4">
+        <div class="balance status">
+            <h5>Balance</h5>
+            <h2>$1375</h2>
+        </div>
+    </div>
+   </div>
+</div>
+
+<div id="transaction-area" class="t-area">
+<div class="row new">
+    <div class="col-md-6 ">
+        <div class="d-area margin">
+            <h5>Deposite</h5>
+            <input type="number" class="form-control" placeholder="$ amount you want to deposite"> <br>
+            <button class="btn-success submit-btn">Deposite</button>
+        </div>
+    </div>
+    <div class="col-md-6 ">
+       <div class="w-area margin">
+            <h5>Withdraw</h5>
+            <input type="number" class="form-control" placeholder="$ amount you want to withdraw"> <br>
+            <button class="btn-success submit-btn">Withdraw</button>
+       </div>
+    </div>
+</div>
+</div>
+
+
+    
+
   
     
 
