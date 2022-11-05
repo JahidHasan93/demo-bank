@@ -42,9 +42,9 @@ depositeButton.addEventListener("click",function(){
     document.getElementById("withdraw-entry").value="";
 
     //total withdraw
-    
-
-
-
+    const totalSavings=document.getElementById("total-balance").innerText;
+    const savingsNums=parseFloat(totalSavings);
+    const leftBalance =savingsNums-withdrawNumber;
+    document.getElementById("total-balance").innerText=leftBalance;
     
 })
